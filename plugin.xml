@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="org.jmrezayi2.Applist"
+      version="0.1.0">
+    <name>Applist</name>
+    <description>Applist Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,Applist</keywords>
+
+
+    <js-module src="www/Applist.js" name="Applist">
+        <clobbers target="window.Applist" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Applist">
+                <param name="android-package" value="org.jmrezayi2.Applist.Applist"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Applist.java" target-dir="src/org/jmrezayi2/Applist" />      
+     </platform>          
+</plugin>
