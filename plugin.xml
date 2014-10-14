@@ -6,7 +6,7 @@
     <name>Applist</name>
     <description>Applist Plugin</description>
     <license>MIT</license>
-    <keywords>phonegap,Applist</keywords>
+    <keywords>list,android,Applist</keywords>
 
 
     <js-module src="www/Applist.js" name="Applist">
