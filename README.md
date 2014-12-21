@@ -26,6 +26,7 @@ app_list.info.img is app-logo cache in storage--sdcard0 /com.ionicframework.xxx/
 ##To Do:
 
 **Add the path to save as an argument in the plugin**
+
 **Add iOS support**
 
 ##Support
