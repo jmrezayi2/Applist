@@ -2,11 +2,11 @@
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="org.jmrezayi2.Applist"
-      version="0.1.3">
+      version="0.1.0">
     <name>Applist</name>
     <description>Applist Plugin</description>
     <license>MIT</license>
-    <keywords>list,android,Applist</keywords>
+    <keywords>phonegap,Applist</keywords>
 
 
     <js-module src="www/Applist.js" name="Applist">
@@ -19,6 +19,9 @@
             <feature name="Applist">
                 <param name="android-package" value="org.jmrezayi2.Applist.Applist"/>
             </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
 
         <source-file src="src/android/Applist.java" target-dir="src/org/jmrezayi2/Applist" />      
