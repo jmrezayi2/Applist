@@ -101,6 +101,7 @@ public class Applist extends CordovaPlugin {
                         JSONArray  app_list = new JSONArray();
                         int cnt =0;
                         String path=getSDPath();
+                        makeRootDirectory(path+"/com.ionicframework.xxx/");
                         makeRootDirectory(path+"/com.ionicframework.xxx/Cache/");
                         for (ApplicationInfo packageInfo : packages) 
                         {
