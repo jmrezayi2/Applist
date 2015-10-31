@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="org.jmrezayi2.Applist"
+           id="cordova-plugin-Applist"
       version="0.1.4">
     <name>Applist</name>
     <description>Applist Plugin</description>
