@@ -3,11 +3,11 @@
 
 ##Add the plugin using CLI:
 
-**cordova plugin add cordova-plugin-applist**
+**cordova plugin add https://github.com/jmrezayi2/Applist**
 
 or 
 
-**cordova plugin add org.jmrezayi2.applist**
+**cordova plugin add cordova-plugin-applist2**
 
 ##Usage:
         

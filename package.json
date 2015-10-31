@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-applist",
+  "name": "cordova-plugin-applist2",
   "version": "1.0.2-dev",
   "description": "Cordova Applist Plugin",
   "cordova": {
-    "id": "cordova-plugin-applist",
+    "id": "cordova-plugin-applist2",
     "platforms": [
       "android"
     ]
