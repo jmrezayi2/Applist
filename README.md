@@ -11,7 +11,7 @@ or
 
 ##Usage:
         
-        var success = function(app_list) { alert(JSON.stringify((app_list)); };
+        var success = function(app_list) { alert(JSON.stringify(app_list)); };
         var error = function(app_list) { alert("Oopsie! " + app_list); };
         Applist.createEvent('', '', '', '', '', success, error)
         
